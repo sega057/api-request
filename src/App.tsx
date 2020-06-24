@@ -43,7 +43,7 @@ export const App = () => {
                 </a>
             </header>
             {state.slice(0, 20).map(todo => (
-                <p>{todo.id + ": " +todo.title}</p>
+                <p>{todo.id + ": " + todo.title}</p>
             ))}
         </div>
     );
