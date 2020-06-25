@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {Slider} from "./slider/Slider";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Slider />
   </React.StrictMode>,
   document.getElementById('root')
 );
